@@ -1,7 +1,7 @@
 # flags
 
 To use, please host a local server of the "Grafik.html".
-The flags are creates soley using javascript and css.
+The flags are created solely using Javascript and CSS.
 
 
 
