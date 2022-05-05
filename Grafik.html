@@ -1,0 +1,65 @@
+<html>
+<head>
+    <title>Javascript Programming</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style>
+    td {
+        font-family: Verdana;
+        font-size: 11px;
+}
+    input {
+        font-family: Verdana;
+        font-size: 11px;
+}
+    table {
+        border-style: solid;
+        border-width: 3px;
+        border-color: black;
+        border-radius: 20px;
+        padding: 10px;
+        box-shadow: 10px 10px 17px #888888;
+}
+    #mitti {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+</style>
+    <script src="Grafik.js"></script>
+</head>
+<body onload="init()">
+    <table id="mitti" cellspacing=5 cellpadding=5>
+    <tr>
+        <td colspan="2" id="toppruta"><b>Javascript Programming</b></td>
+        <td id="info"></td>
+    </tr>
+    <tr>
+        <td>indata1</td>
+        <td><input type="text" size="33" value="" id="indata1"></td>
+        <td rowspan="3" id="visaprylar"><canvas id='canvas'></canvas></td>
+</tr> <tr>
+        <td>indata2</td>
+        <td><input type="text" size="33" value="" id="indata2"></td>
+    </tr>
+    <tr>
+        <td>utdata</td>
+        <td><textarea rows="7" cols="35" id="utdata"></textarea></td>
+    </tr>
+        <td></td>
+        <td colspan=2>
+            <button onclick='wMinus()'>w-</button>
+            <button onclick='wPlus()'>w+</button>
+            <button onclick='hMinus()'>h-</button>
+            <button onclick='hPlus()'>h+</button>
+            <button onclick='grid()'>grid</button>
+            <button onclick='concentric()'>concentric</button>
+            <button onclick='concentric2()'>concentric2</button>
+            <button onclick='star(50,50,100)'>star</button>
+            <button onclick='bigstar()'>bigstar</button>
+            <button onclick='bosnien(400,200)'>Bosnien</button>
+            <button onclick='Malaysia(400,200)'>Malaysia</button>
+        </td>
+    </table>
+</body>
+</html>
